@@ -1,0 +1,143 @@
+body{
+		background-color: #0F119B;
+
+     }
+/*-------------------------------Home Page ------------------------------*/
+
+h1{
+	text-align: center;
+	color: silver;
+	font-weight: bold;
+	font-size:60px;
+	text-decoration: underline;
+}
+
+h2{
+	text-align: center;
+	color: silver;
+	font-weight: bold;
+	font-size:50px;
+	text-decoration: underline;
+}
+
+
+
+
+.div1
+{ 
+		width: 30%;
+		height:60px;		
+  		display: inline-block;	
+  		border:solid white 7px;
+		border-radius: 20px;	
+		position: relative;
+		color: white;	
+		font-size: 40px;		
+}
+
+.div1:hover
+{
+	border:solid darkred 7px;
+}
+
+.div1:hover .div2
+{
+	display: block;
+}
+
+.div2
+{	
+	display: none;
+	position: absolute;
+	right: -100px;
+	background-color: white;
+	min-width: 160px;
+	z-index: 1;
+}
+
+.div2 a
+{
+	color: #0F119B;
+	padding: 12px 12px;
+	text-decoration: none;
+	display: block;
+}
+
+.div2 a:hover
+{	
+	border:solid darkred 7px;
+}
+
+/*-----------------------------------------------------------------*/
+
+
+h3{
+	display: inline-block;
+	padding: 15px;
+}
+
+a{
+	color: silver;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+}
+
+
+
+td{
+	font-size: 20px;
+	color: white;
+}
+
+input{
+	border-radius: 7px;
+	font-size: 20px;
+}
+
+
+.td2{
+	font-size: 16px;
+	
+}
+
+th{
+	background-color: silver;
+	font-size: 18px;
+
+}
+
+.a1{
+	font-size: 18px;
+	color: red;
+
+}
+
+.a1:hover{
+	color: white;
+}
+
+.pp{
+	color: red;
+}
+
+.list
+{
+	display: flex;  
+	justify-content: center;
+}
+
+.select
+{
+	font-size: 20px;
+	border-radius: 7px;
+}
+
+ul
+{
+	font-size: 20px;
+	color: white;
+}
